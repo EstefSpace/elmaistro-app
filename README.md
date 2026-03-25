@@ -36,11 +36,13 @@ The application follows a minimalist, single-binary architectural pattern to ens
    pnpm run build
    ```
 2. Compile the Monolith:
+
    Navigate back to the root directory and compile the Go binary 
    ```bash
    go build -ldflags"-s -w" -o maistroapp 
    ```
 3. Execution:
+
    Run the generated binary. The application will initialize the SQLite database automatically   on the first launch.
    ```bash
    ./maistroapp 
