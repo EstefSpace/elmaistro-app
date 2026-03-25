@@ -72,6 +72,13 @@ The application is distributed as a single binary. To ensure optimal performance
 2. Store images in a local directory and save only the file paths in SQLite to prevent database bloat.
 3. Enable Zswap or a similar compressed swap mechanism on the host operating system.
 
+## Built With
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 ## License
 
 MIT
