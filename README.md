@@ -29,8 +29,8 @@ The application follows a minimalist, single-binary architectural pattern to ens
 ## Installation and Build Process
 
 ### Prerequisites
-* Go 1.21 or higher
-* Node.js (Required only for the frontend build stage)
+* Go 1.25 or higher
+* Pnpm 10.x (Required only for the frontend build stage)
 
 ### Build Steps
 
@@ -42,9 +42,9 @@ The application follows a minimalist, single-binary architectural pattern to ens
    ```
 2. Compile the Monolith:
 
-   Navigate back to the root directory and compile the Go binary 
+   Navigate back to the root directory and compile the Go binary in linux 
    ```bash
-   go build -ldflags"-s -w" -o maistroapp 
+   CGO_ENABLED=0 go build -ldflags"-s -w" -o maistroapp 
    ```
 3. Execution:
 
